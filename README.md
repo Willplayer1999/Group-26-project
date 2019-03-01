@@ -7,7 +7,7 @@ Gallagger will be located in https://github.com/Willplayer1999/Group-26-project
 <br>
 There will be 6 classes that need to be grabbed from github. They are: AnimationApp, Avatar Platform, Enemy, Bullet, and TextBase.
 <br>
-These 5 classes need to be in the same folder and ran through a command prompt.
+These 6 classes need to be in the same folder and ran through a command prompt.
 <br>
 First they need to be compiled using javac. (Then the path directory to the location)
 <br>

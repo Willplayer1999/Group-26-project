@@ -33,8 +33,36 @@ public class Gallager extends Application {
 	private int yPlat = 29;
 	private int xForm = 0;
 	private int yForm = 0;
-
+	//Things Chad has added.
+	private int health;
+	private int theLevel;
+	private int playerScore;
 	
+	public Gallager() {
+		health = 3;
+		theLevel = 1;
+		playerScore = 0;
+	}
+	public int getHealth() {
+		return health;
+	}
+	public void setHealth(int health) {
+		this.health = health;
+	}
+	public int getLevel() {
+		return theLevel;
+	}
+	public void setLevel(int level) {
+		this.theLevel = level;
+	}
+	public int getScore() {
+		return playerScore;
+	}
+	public void setScore(int score) {
+		this.playerScore = score;
+	}
+
+	//
 	public int getXPlat() {
 		return xPlat;
 	}
@@ -61,6 +89,23 @@ public class Gallager extends Application {
 	}
 //////////////
     private Parent createNodes() {
+	//Things Chad Has added.
+	HBox topData = new HBox();
+    	Label lives = new Label("Lives:" + health);
+    	lives.setFont(new Font("Arial", 30));
+    	lives.setTextFill(Color.web("#0CFF00"));
+    	Label level = new Label("Level:" + theLevel);
+    	level.setFont(new Font("Arial", 30));
+    	level.setTextFill(Color.web("#0CFF00"));
+    	Label score = new Label("Score:" + playerScore);
+    	score.setFont(new Font("Arial", 30));
+    	score.setTextFill(Color.web("#0CFF00"));
+    	topData.setStyle("-fx-background-color: #000000;");
+    	topData.getChildren().add(lives);
+    	topData.getChildren().add(score);
+    	topData.getChildren().add(level);
+    	topData.setSpacing(153);
+	//
         root = new Pane();
         root.setPrefSize(600, 600);
         

@@ -5,10 +5,14 @@ An arcade style game coded on java that is a fusion between a space shooter and 
 <br>
 Gallagger will be located in https://github.com/Willplayer1999/Group-26-project
 <br>
-There will be 6 classes that need to be grabbed from github. They are: AnimationApp, Avatar Platform, Enemy, Bullet, and TextBase.
+There will be 6 classes that need to be grabbed from github for the command prompt version. They are: AnimationApp, Avatar Platform, Enemy, Bullet, and TextBase.
 <br>
-These 6 classes need to be in the same folder and ran through a command prompt.
+These 6 classes need to be in the same folder and ran through a command prompt. This is simply for the command prompt version
 <br>
 First they need to be compiled using javac. (Then the path directory to the location)
 <br>
-After it successfully compiles type java TextBase and enjoy the game.
+After it successfully compiles type java TextBase in the command prompt and enjoy the game.
+<br>
+If you are interested in running the GUI version there is one class called Gallagger.java that will need to be compiled using javac.
+<br>
+After it successfully compiles type java Gallagger in the command prompt and enjoy the game.

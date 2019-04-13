@@ -4,9 +4,11 @@ An arcade style game coded with java that is a fusion between a space shooter an
 Gallager will be located in https://github.com/Willplayer1999/Group-26-project in the main branch, make sure you download everything from the branch.
 There will be 11 classes that need to be grabbed from github. They are: AvatarBullet, Bullet, EnemyBullet, Collidable, Avatar, Enemy, Platforms, Game, GUI, TextGame and Main. Do not skip out on downloading the images, the code will not work without them.
 The 11 Classes are spread over 5 Packages namely Bullet, Collidable, Entities, Game and Main
+
 This project will require eclipse to work which can be downloaded here:
 https://www.eclipse.org/downloads/packages/release/kepler/sr1/eclipse-ide-java-developers
 Once eclipse is set up, you must go to follow the following instructions:
+
 File → New → Java Project
 Type in anything for the Project name or type in “Gallager” (optional)
 Click Next

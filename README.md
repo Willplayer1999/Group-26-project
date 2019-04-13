@@ -23,6 +23,7 @@ Make sure you tick the box next to Gallager to import everything in the folder a
 Now expand “src” in your project name, expand the Main package and double-click Main.java
 Right-click Main.java and hit Run-as → Java Application
 Follow the instructions in the Console and begin playing!
+
 NOTE: IF JUNIT TESTS CANNOT RUN IN ECLIPSE, USE COMMAND PROMPT
 To run the test file. First make sure you have junit installed. If you are going through eclipse you can add the library (J-unit 4, or J-unit 5 will work). If you are strictly command prompt you will have to first download it (https://junit.org/junit5/) and then run java -jar junit-platform-console-standalone-<version>.jar <Options> through the command prompt, choosing what version you are using. Our test files will be stored in the folder AllFilesWithTests inside the Gallager folder. The test files will need to be compiled using the command, 
 javac -cp .;junit-4.12.jar;hamcrest-core-1.3.jar *.java
